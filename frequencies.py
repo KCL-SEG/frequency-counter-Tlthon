@@ -1,7 +1,7 @@
 """Frequencies function."""
 """ENTER YOUR SOLUTION HERE!"""
 
-def frequencies(items :list[any]):
+def frequencies(items :list):
     freq:dict[any] = {}
     for item in items:
         str_item = str(item)
